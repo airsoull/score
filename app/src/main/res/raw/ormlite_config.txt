@@ -1,0 +1,106 @@
+#
+# generated on 2015/06/02 11:04:49
+#
+# --table-start--
+dataClass=cl.healpy.score.models.data.ChampionshipData
+tableName=championshipdata
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=desde
+# --field-end--
+# --field-start--
+fieldName=temporada
+# --field-end--
+# --field-start--
+fieldName=hasta
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=dia
+# --field-end--
+# --field-start--
+fieldName=fecha
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=cl.healpy.score.models.data.PartidoData
+tableName=partidodata
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id_championship
+# --field-end--
+# --field-start--
+fieldName=horaEstado
+# --field-end--
+# --field-start--
+fieldName=idPartido
+# --field-end--
+# --field-start--
+fieldName=hora
+# --field-end--
+# --field-start--
+fieldName=ciudad
+# --field-end--
+# --field-start--
+fieldName=idEstado
+# --field-end--
+# --field-start--
+fieldName=nombreArbitro
+# --field-end--
+# --field-start--
+fieldName=golLocal
+# --field-end--
+# --field-start--
+fieldName=idArbitro
+# --field-end--
+# --field-start--
+fieldName=escudoVisita
+# --field-end--
+# --field-start--
+fieldName=golVisita
+# --field-end--
+# --field-start--
+fieldName=idLocal
+# --field-end--
+# --field-start--
+fieldName=estadio
+# --field-end--
+# --field-start--
+fieldName=idVisita
+# --field-end--
+# --field-start--
+fieldName=estado
+# --field-end--
+# --field-start--
+fieldName=escudoLocal
+# --field-end--
+# --field-start--
+fieldName=nombreVisita
+# --field-end--
+# --field-start--
+fieldName=nombreLocal
+# --field-end--
+# --field-start--
+fieldName=fecha
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

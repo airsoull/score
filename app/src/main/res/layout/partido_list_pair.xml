@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_escudoVisita"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="100dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="visita"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse"
+                android:id="@+id/textView_nombreVisita" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:text="visita"
+                android:textStyle="bold"
+                android:id="@+id/textView_golVisita"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView_idPartido"
+                android:layout_height="0dp"
+                android:layout_width="0dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="local"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse"
+                android:id="@+id/textView_nombreLocal" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                android:text="local"
+                android:textStyle="bold"
+                android:id="@+id/textView_golLocal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_escudoLocal"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
